@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juros Compostos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador de Juros Simples</h1>
+        <header>
+            <div id="bloco_1">
+
+                <div id="bloco-p1"> 
+
+                    <p>valor incial</p>
+                    <div id="valor_i">
+                        <h2 id="p1">R$</h2>
+                        <input type="number" name="R$" id="inicial">
+                    </div>
+
+                    <p>Taxa de juros</p>
+                    <div id="valor_i">
+                        <h2 id="p2">%</h2>
+                        <input type="number" name="R$" id="juros">
+                    </div>
+                    
+                </div>
+
+                <div id="bloco-p2">
+
+                    <p>Periodo</p>
+                    <div id="valor_i">
+                        <h2 id="p1">Ano</h2>
+                        <input type="number" name="R$" id="periodo">
+                    </div>
+
+                    <p>Valor Final</p>
+                    <div id="valor_i">
+                        <h2 id="p2">R$</h2>
+                        <div id="output"></div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="botao">
+                <button class="buttonspan" onclick="calcular()"><span>Calcular</span></button>
+            </div>
+        </header>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
